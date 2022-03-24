@@ -10,7 +10,7 @@ public class Loader : MonoBehaviour
     public GameObject CrappyScreen;
 
     public float delayBeforeLoading = 3f;
-    public float delayBeforeLoading2 = 8f;
+    public float delayBeforeLoading2 = 9f;
 
     private float timeElapsed;
 
