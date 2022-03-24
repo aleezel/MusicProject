@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 800669099}
   - component: {fileID: 800669098}
   m_Layer: 0
-  m_Name: Vinil animation
+  m_Name: CrappyTitle animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -576,7 +576,7 @@ RectTransform:
   m_GameObject: {fileID: 800669096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6.0391884, y: 6.0391884, z: 6.0391884}
+  m_LocalScale: {x: 1.95, y: 1.95, z: 1}
   m_Children: []
   m_Father: {fileID: 1814138617}
   m_RootOrder: 0
@@ -584,7 +584,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 888, y: 1536}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &800669098
 Animator:
@@ -596,7 +596,7 @@ Animator:
   m_GameObject: {fileID: 800669096}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5a6774d62f71ab84f915dc7c59c4f111, type: 2}
+  m_Controller: {fileID: 9100000, guid: 75f0e030d8e03c54ea690688c8fd0a96, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -625,7 +625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: abc1e9de9720e5b4a90d45a213049f61, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d5300d44de6a6af488c31c6f0f806f89, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1115,6 +1115,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383472757}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1407636426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1407636428}
+  - component: {fileID: 1407636427}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1407636427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407636426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827fc7e1602db6e4593adedbd97b3b00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VinilScreen: {fileID: 793781217}
+  CrappyScreen: {fileID: 1814138616}
+  delayBeforeLoading: 3
+  delayBeforeLoading2: 8
+--- !u!4 &1407636428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407636426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 748.2289, y: 2289.8015, z: 6.6905727}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1663109551
 GameObject:
   m_ObjectHideFlags: 0
