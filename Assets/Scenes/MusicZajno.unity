@@ -354,6 +354,7 @@ GameObject:
   - component: {fileID: 42415405}
   - component: {fileID: 42415404}
   - component: {fileID: 42415403}
+  - component: {fileID: 42415406}
   m_Layer: 0
   m_Name: Spotify
   m_TagString: Untagged
@@ -423,7 +424,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 42415404}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 42415406}
+        m_TargetAssemblyTypeName: links, Assembly-CSharp
+        m_MethodName: onURL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &42415404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,6 +475,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42415401}
   m_CullTransparentMesh: 1
+--- !u!114 &42415406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42415401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bdca57ecfff564488de2421ec87c10d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://open.spotify.com/album/7FfiN9ztbjLNPWhuhFHaWf
 --- !u!1 &78912203
 GameObject:
   m_ObjectHideFlags: 0
@@ -3910,6 +3936,7 @@ GameObject:
   - component: {fileID: 688737382}
   - component: {fileID: 688737385}
   - component: {fileID: 688737384}
+  - component: {fileID: 688737386}
   - component: {fileID: 688737383}
   m_Layer: 0
   m_Name: Spotify
@@ -3980,7 +4007,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 688737384}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 688737386}
+        m_TargetAssemblyTypeName: links, Assembly-CSharp
+        m_MethodName: onURL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &688737384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4019,6 +4058,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688737381}
   m_CullTransparentMesh: 1
+--- !u!114 &688737386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688737381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bdca57ecfff564488de2421ec87c10d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://open.spotify.com/album/7Kmmw7Z5D2UD5MVwdm10sT
 --- !u!1 &692145169
 GameObject:
   m_ObjectHideFlags: 0
@@ -4106,6 +4158,7 @@ GameObject:
   - component: {fileID: 694331730}
   - component: {fileID: 694331729}
   - component: {fileID: 694331728}
+  - component: {fileID: 694331731}
   m_Layer: 0
   m_Name: Spotify
   m_TagString: Untagged
@@ -4175,7 +4228,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 694331729}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 694331731}
+        m_TargetAssemblyTypeName: links, Assembly-CSharp
+        m_MethodName: onURL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &694331729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4214,6 +4279,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694331726}
   m_CullTransparentMesh: 1
+--- !u!114 &694331731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694331726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bdca57ecfff564488de2421ec87c10d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://open.spotify.com/album/0tzfI6NFJqcJkWb23R3lRZ
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -5818,6 +5896,8 @@ GameObject:
   - component: {fileID: 1027011945}
   - component: {fileID: 1027011947}
   - component: {fileID: 1027011946}
+  - component: {fileID: 1027011949}
+  - component: {fileID: 1027011948}
   m_Layer: 0
   m_Name: Youtube
   m_TagString: Untagged
@@ -5882,6 +5962,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027011944}
   m_CullTransparentMesh: 1
+--- !u!114 &1027011948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027011944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1027011946}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1027011949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027011944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bdca57ecfff564488de2421ec87c10d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: 
 --- !u!1 &1034941697
 GameObject:
   m_ObjectHideFlags: 0
@@ -7076,6 +7225,7 @@ GameObject:
   - component: {fileID: 1215617090}
   - component: {fileID: 1215617089}
   - component: {fileID: 1215617088}
+  - component: {fileID: 1215617091}
   m_Layer: 0
   m_Name: Spotify
   m_TagString: Untagged
@@ -7145,7 +7295,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1215617089}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1215617091}
+        m_TargetAssemblyTypeName: links, Assembly-CSharp
+        m_MethodName: onURL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1215617089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7184,6 +7346,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215617086}
   m_CullTransparentMesh: 1
+--- !u!114 &1215617091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215617086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bdca57ecfff564488de2421ec87c10d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://open.spotify.com/album/0hyq754QnaKHYpH32QnWqs
 --- !u!1 &1258840663
 GameObject:
   m_ObjectHideFlags: 0
@@ -7554,6 +7729,7 @@ GameObject:
   - component: {fileID: 1409591481}
   - component: {fileID: 1409591483}
   - component: {fileID: 1409591482}
+  - component: {fileID: 1409591484}
   m_Layer: 0
   m_Name: Apple Music
   m_TagString: Untagged
@@ -7618,6 +7794,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409591480}
   m_CullTransparentMesh: 1
+--- !u!114 &1409591484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409591480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bdca57ecfff564488de2421ec87c10d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: 
 --- !u!1 &1456414949
 GameObject:
   m_ObjectHideFlags: 0
@@ -8398,7 +8587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1599859087
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9912,7 +10101,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1846099965
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10733,6 +10922,7 @@ GameObject:
   - component: {fileID: 1986675219}
   - component: {fileID: 1986675218}
   - component: {fileID: 1986675217}
+  - component: {fileID: 1986675220}
   m_Layer: 0
   m_Name: Spotify
   m_TagString: Untagged
@@ -10802,7 +10992,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1986675218}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1986675220}
+        m_TargetAssemblyTypeName: links, Assembly-CSharp
+        m_MethodName: onURL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1986675218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10841,6 +11043,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986675215}
   m_CullTransparentMesh: 1
+--- !u!114 &1986675220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986675215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bdca57ecfff564488de2421ec87c10d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://open.spotify.com/album/6pTMhQX8gt1xegiIwo3Ekb
 --- !u!1 &1990157531
 GameObject:
   m_ObjectHideFlags: 0
