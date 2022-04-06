@@ -6707,6 +6707,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070439138}
   m_CullTransparentMesh: 1
+--- !u!1 &1107194347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df398ff923e10554a8ed0e0d422e781f, type: 3}
+  m_PrefabInstance: {fileID: 1144663821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1107194348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107194347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edfbbc158032564680dad32085fb2f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1459649991}
+        m_TargetAssemblyTypeName: paneles, Assembly-CSharp
+        m_MethodName: panelstrokes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  button: {fileID: 1107194347}
+--- !u!65 &1107194352
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107194347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000001, y: 0.010000001, z: 0.010000043}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1130590668
 GameObject:
   m_ObjectHideFlags: 0
@@ -8083,6 +8129,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305095826}
   m_CullTransparentMesh: 1
+--- !u!1 &1307403159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1307403161}
+  - component: {fileID: 1307403160}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1307403160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307403159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb257e3f13af6f42b118bec5cf9835c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botonstrokes: {fileID: 1107194347}
+--- !u!4 &1307403161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307403159}
+  m_LocalRotation: {x: -0, y: 0.08715578, z: 0.9961947, w: 0}
+  m_LocalPosition: {x: 645, y: 1311, z: 318}
+  m_LocalScale: {x: 28958.402, y: 28958.414, z: 937.626}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1407509346
 GameObject:
   m_ObjectHideFlags: 0
@@ -8425,8 +8515,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VinilScreen: {fileID: 793781217}
   CrappyScreen: {fileID: 1814138616}
-  panel_generos: {fileID: 1924880681}
-  panel_inicial: {fileID: 1153060257}
   delayBeforeLoading: 3
   delayBeforeLoading2: 9
 --- !u!4 &1459649990
@@ -8441,7 +8529,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1459649991
 MonoBehaviour:
@@ -8452,9 +8540,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1459649988}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca7531d942b51d147b19ce7d9bfed2c3, type: 3}
+  m_Script: {fileID: 11500000, guid: 4dc7c92e820a32f4ba3b0a1cde58dd78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel_generos: {fileID: 1924880681}
+  panel_inicial: {fileID: 1153060257}
+  panel_strokes: {fileID: 1846099964}
+  panel_regreso: {fileID: 1153060257}
 --- !u!1 &1489327162
 GameObject:
   m_ObjectHideFlags: 0
