@@ -8,8 +8,7 @@ public class Loader : MonoBehaviour
     //PANELES EN ORDEN
     public GameObject VinilScreen;
     public GameObject CrappyScreen;
-    public GameObject panel_generos;
-    public GameObject panel_inicial;
+  
 
     public float delayBeforeLoading = 3f;
     public float delayBeforeLoading2 = 9f;
@@ -37,13 +36,5 @@ public class Loader : MonoBehaviour
         CrappyScreen.SetActive(false);
     }
 
-    public void panelcambiogeneros()
-    {
-        panel_generos.SetActive(true);
-    }
-
-    public void regresoalpanel()
-    {
-        panel_generos.SetActive(false);
-    }
+  
 }
