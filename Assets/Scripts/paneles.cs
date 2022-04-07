@@ -14,6 +14,14 @@ public class paneles : MonoBehaviour
     public GameObject panel_radiohead;
     public GameObject panel_foxygen;
     public GameObject panel_fosterthepeople;
+    public GameObject panel_alternativo;
+    public GameObject panel_pop;
+    public GameObject panel_rockalt;
+    public GameObject panel_artrock;
+    public GameObject panel_rockenesp;
+    public GameObject panel_rock;
+    public GameObject panel_electropop;
+    public GameObject panel_electronicadance;
 
     public void panelcambiogeneros()
     {
@@ -82,6 +90,86 @@ public class paneles : MonoBehaviour
     public void regresofosterthepeople()
     {
         panel_fosterthepeople.SetActive(false);
+    }
+
+    public void panelalt()
+    {
+        panel_alternativo.SetActive(true);
+    }
+
+    public void panelaltreg()
+    {
+        panel_alternativo.SetActive(false);
+    }
+
+    public void panelpop()
+    {
+        panel_pop.SetActive(true);
+    }
+
+    public void panelpopreg()
+    {
+        panel_pop.SetActive(false);
+    }
+
+    public void panelrockalt()
+    {
+        panel_rockalt.SetActive(true);
+    }
+
+    public void panelrockaltreg()
+    {
+        panel_rockalt.SetActive(false);
+    }
+
+    public void panelartrock()
+    {
+        panel_artrock.SetActive(true);
+    }
+
+    public void panelartrockreg()
+    {
+        panel_artrock.SetActive(false);
+    }
+
+    public void panelrockenesp()
+    {
+        panel_rockenesp.SetActive(true);
+    }
+
+    public void panelrockenespreg()
+    {
+        panel_rockenesp.SetActive(false);
+    }
+
+    public void panelrock()
+    {
+        panel_rock.SetActive(true);
+    }
+
+    public void panelrockreg()
+    {
+        panel_rock.SetActive(false);
+    }
+
+    public void panelelectropop()
+    {
+        panel_electropop.SetActive(true);
+    }
+
+    public void panelelectropopreg()
+    {
+        panel_electropop.SetActive(false);
+    }
+
+    public void panelelectronicadance()
+    {
+        panel_electronicadance.SetActive(true);
+    }
+
+    public void panelelectronicadancereg()
+    {
+        panel_electronicadance.SetActive(false);
     }
 
 
