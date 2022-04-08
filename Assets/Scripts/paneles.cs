@@ -6,15 +6,24 @@ using UnityEngine.UI;
 public class paneles : MonoBehaviour
 {
     public GameObject panel_generos;
-    public GameObject panel_inicial;
+    //public GameObject panel_inicial;
     public GameObject panel_strokes;
-    public GameObject panel_regreso;
+    //public GameObject panel_regreso;
     public GameObject panel_benee;
     public GameObject panel_sodastereo;
     public GameObject panel_radiohead;
     public GameObject panel_foxygen;
     public GameObject panel_fosterthepeople;
 
+    public void panelInicial()
+    {
+        panel_strokes.SetActive(false);
+        panel_benee.SetActive(false);
+        panel_sodastereo.SetActive(false);
+        panel_radiohead.SetActive(false);
+        panel_foxygen.SetActive(false);
+        panel_fosterthepeople.SetActive(false);
+    }
     public void panelcambiogeneros()
     {
         panel_generos.SetActive(true);
@@ -38,6 +47,7 @@ public class paneles : MonoBehaviour
     public void panelbenee()
     {
         panel_benee.SetActive(true);
+        Debug.Log("cierrate");
     }
 
     public void regresobenee()
