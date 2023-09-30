@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MusicZajno 1.unity
+    guid: bdb89d4f7d41748438d808738cd4f7f5
   m_configObjects: {}
